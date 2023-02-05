@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Titillium+Web">
+</head>
+<body>
+  <nav style="background-color: #044d78;">
+    <div class="navbar-fixed">
+      <div class="container">
+       
+        <ul id="nav-mobile" class="center">
+          <li><a href="index.html#Services">Services</a></li>
+          <li><a href="index.html#Contact">Contact</a></li>
+        </ul>
+        <ul id="nav-mobile" class="right">
+          <li><a href="#Services">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+        
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container center">
+      <br><br>
+      <img class="responsive-img" src="images/default.png">
+      <div class="row center">
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <h3 style="font-family: titillium web;">Microsoft MFA Number Matching, verplicht vanaf 27 februari 2023</h3>
+        <br />
+        <p>
+          We kennen allemaal de term "MFA" ofwel: Multi Factor Authentication.
+          Dit houdt in dat naast het invoeren van een juist paswoord, er ook een extra laag beveiliging is toegevoegd. Dit kan in verschillende vormen voorkomen: eenmalige Sms-code, eenmalige E-mail code,  Een authenticator-app welke een pushnotificatie op je smartphone toont me de optie's "Goedkeuren/Annuleren", .. 
+          <br />
+          <br />
+          Zo heeft Microsoft een eigen "MFA Applicatie" op de markt gebracht, namelijk : Microsoft Authenticator. Deze applicatie is de go to voor de meeste bedrijven die in een Microsoft-omgeving werken. Tot op heden hebben we verschillende methodes om deze applicatie te gebruiken. We hebben de roterende code, een pushnotificatie, en numbermatching.
+          De pushnotificatie wordt door 80% van bedrijven gebruikt. Ook al is deze methode razend populair, toch brengt deze nog enkele security risico's met zich mee. 
+          <br />
+          <br />
+          Het eerte risico waar we het over gaan hebben is "MFA Fatigue". Dit wil zeggen dat wanneer hackers een juist paswoord hebben bemachtigd en na aanmelden afhankelijk zijn van de goedkeuring via de app op het telefoon van het slachtoffer, Ze door middel van een script (of manueel) de ene na de andere request versturen. Door ergering van het slachtoffer wordt deze MFA aanvraag alsnog goedgekeurd.
+          Het tweede risico dat deze methode met zich mee brengt, simpelweg de "Human Error".
+          De optie "Annuleren" ligt namelijk op 1 cm afstand van de button om de aanvraag goed te keuren. En vanaf je per ongeluk op goedkeuren hebt gedrukt is er geen weg meer terug.
+          <br />
+          <br />
+          Als "mitigation" heeft Microsoft besloten om vanaf 27 februari alle tenants te verplichten om over te stappen op "Number Matching MFA". Met deze methode wordt er op het scherm van de aanmelder een cijfer getoond dat moet worden ingevuld in de authenticator app om door te gaan. Zo wordt de kans om deze aanvraag "per ongeluk" goed te keuren tot een minimum beperkt.
+          <br />
+          <br />
+          <br />
+          Stay safe,
+          <br /> 
+          Team CloudSquare</p>
+      </div>
+      <br />
+      <br />
+      <br />
+      
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer" style="background-color: #067798;" id="Contact">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">CloudSquare is een Belgische éénmanszaak. Opgestart om kleine bedrijven de kans te geven zichzelf te beschermen tegen de steeds vaker voorkomende cyber aanvallen. Ook andere IT projecten kunnen besproken worden.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li>Email : info@cloudsquare.be</li>
+            <li>Tel : 0476864692</li>
+            <li>BTW : 0766.907.239</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3">CloudSquare</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
